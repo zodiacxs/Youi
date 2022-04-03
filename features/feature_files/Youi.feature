@@ -24,8 +24,8 @@ Feature: Youi Test
     And user pressed tab
     Then no warning should be displayed
 
-  @OutOfStock
-  Scenario Outline: Add to cart button is hidden for Out of Stock items
+  @StockAvailability
+  Scenario Outline: Add to cart button is hidden/displayed based on stock availability
     Given user opens the demo web shop home page
     And user selects APPAREL & SHOES
     And user lands on the APPAREL & SHOES page
