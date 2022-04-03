@@ -1,0 +1,1 @@
+default: --publish-quiet --format progress --format html --out features/reports/Report.html
